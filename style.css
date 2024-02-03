@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.calculator{
+    width: 300px;
+    background-color: rgb (240, 240, 240);
+    background-color: lightblue;
+    margin: 20px auto;
+    margin-top: 100px;
+    border: 2px solid black;
+    padding-left: 15px;
+    border-radius: 5px;
+    padding-bottom: 8px;
+}
+
+.disp{
+    padding: 10px 0;
+}
+
+.disp input{
+    width: 89%;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    text-align: right;
+}
+
+.btnParent{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.btnParent button{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1.5em;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnParent button:hover{
+    background-color: orange;
+    color: black;
+}
